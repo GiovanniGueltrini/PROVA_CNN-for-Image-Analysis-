@@ -8,7 +8,7 @@ The dataset is composed of synthetic images generated specifically for training.
 To make the task more realistic and prevent the model from overfitting on simple visual patterns, we also inject additional noise within the circle itself,.
 
 
-### Model
+## Model
 
 To create the model I got inspired by the ResNet netwotk's.
 The Network is composed by 8 block, each block is made by two block: 
@@ -17,4 +17,8 @@ The Network is composed by 8 block, each block is made by two block:
 
 In the end of the network there is a classificator form by two fully connected layer.
 
-#### GradCam
+## GradCam
+To understand which regions of the image the model focuses on when making a decision, we applied Grad-CAM (Gradient-weighted Class Activation Mapping) — a popular technique for visualizing the inner workings of convolutional neural networks.
+
+We used the pytorch-grad-cam library, which allows for easy integration of Grad-CAM into any PyTorch model.
+it uses the gradients of the target class flowing into the final convolutional layer to produce a coarse localization map, highlighting the important regions in the image.
