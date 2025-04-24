@@ -2,3 +2,5 @@ torch>=2.0
 torchvision>=0.15
 numpy
 matplotlib
+random
+pytorch-grad-cam>=1.4
