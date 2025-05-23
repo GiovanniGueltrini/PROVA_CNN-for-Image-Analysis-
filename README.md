@@ -6,7 +6,7 @@ We will training an CNN with 100 sintetic image and we will apply the GradCAM li
 The dataset is composed of synthetic images generated specifically for training. Each image starts as a random noise background, to which a circular shape is added in a subset of cases. The radius of each circle is randomly selected within a predefined range, simulating a region of interest.
 
 To make the task more realistic and prevent the model from overfitting on simple visual patterns, we also inject additional noise within the circle itself.
-Puoi vedere lo script di generazione del dataset [qui][([https://github.com/gianluigi92/lesion-detector/blob/main/utils/dataset_generator.py](https://github.com/GiovanniGueltrini/PROVA_CNN-for-Image-Analysis-/tree/main/image/immagini))
+Puoi vedere lo script di generazione del dataset [qui]([https://github.com/gianluigi92/lesion-detector/blob/main/utils/dataset_generator.py](https://github.com/GiovanniGueltrini/PROVA_CNN-for-Image-Analysis-/tree/main/image/immagini))
 
 
 ## Model
