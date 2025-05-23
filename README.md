@@ -10,7 +10,7 @@ you can visualize the entire dataset [here](https://github.com/GiovanniGueltrini
 ## Model
 
 To create the model I got inspired by the ResNet netwotk's.
-The Network is composed by 8 block, each block is made by two block: 
+The Network is composed by 8 block, each block is made by two sub-block: 
 1. Convolution Block: reduces the spatial dimension by convolution with stride 2, and applies dropout and batch normalization.
 2. Identity Block: keeps the same size, adding a second convolutional step.
 
