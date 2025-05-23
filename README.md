@@ -26,3 +26,6 @@ To understand which regions of the image the model focuses on when making a deci
 
 We used the pytorch-grad-cam library, which allows for easy integration of Grad-CAM into any PyTorch model.
 it uses the gradients of the target class flowing into the final convolutional layer to produce a coarse localization map, highlighting the important regions in the image.
+As shown in the image, the model seems to concentrate on the relevant area where the object is located.
+![config](./image/immagini/test_11_label_1.png)
+
