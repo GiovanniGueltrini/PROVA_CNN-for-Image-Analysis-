@@ -21,7 +21,8 @@ In the end of the network there is a classificator form by two fully connected l
 </p>
 
 
-## GradCam
+## GradCam and Segmentation
+### Gradcam
 To understand which regions of the image the model focuses on when making a decision, we applied Grad-CAM (Gradient-weighted Class Activation Mapping) — a popular technique for visualizing the inner workings of convolutional neural networks.
 
 We used the pytorch-grad-cam library, which allows for easy integration of Grad-CAM into any PyTorch model.
@@ -29,3 +30,5 @@ it uses the gradients of the target class flowing into the final convolutional l
 As shown in the image, the model seems to concentrate on the relevant area where the object is located.
 ![config](./image/immagini/test_11_label_1.png)
 
+### segmentation
+BLABLABLABLABLABKA
