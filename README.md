@@ -15,7 +15,7 @@ The Network is composed by 8 block, each block is made by two sub-block:
 2. Identity Block: keeps the same size, adding a second convolutional step.
 
 In the end of the network there is a classificator form by two fully connected layer.
-![Esempio di output](image/test_10_label_0.png)
+![Esempio di output](PROVA_CNN-for-Image-Analysis-/tree/main/image/immagini/test_10_label_0.png)
 
 ## GradCam
 To understand which regions of the image the model focuses on when making a decision, we applied Grad-CAM (Gradient-weighted Class Activation Mapping) — a popular technique for visualizing the inner workings of convolutional neural networks.
