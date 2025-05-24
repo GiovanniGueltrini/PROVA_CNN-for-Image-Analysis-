@@ -30,7 +30,7 @@ it uses the gradients of the target class flowing into the final convolutional l
 As shown in the image, the model seems to concentrate on the relevant area where the object is located.
 ![config](./image/immagini/test_11_label_1.png)
 
-### segmentation
+### Segmentation
 The model was only trained to detect whether the object is present or absent in the image.
 Nevertheless, we leveraged the Grad-CAM heatmap to approximate the object's location.
 To do so, we applied a threshold to identify the most relevant pixels—
