@@ -31,7 +31,10 @@ As shown in the image, the model seems to concentrate on the relevant area where
 ![config](./image/immagini/test_11_label_1.png)
 
 ### segmentation
-The model is only trained to detect the presence or absence of the object in the image.
-However, we attempted to use the Grad-CAM heatmap to estimate the object's location within the image.
-To do that we just applied a threshold to define the most important pixel, you can see the entire process  [here](metti il link che cazzo ti pare).
-And then we compute calculate how good this metod could predict the position of the object, in order to control the quality of  the segmentation we will use the [Sørensen-Dice coefficient](https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient)
+The model was only trained to detect whether the object is present or absent in the image.
+Nevertheless, we leveraged the Grad-CAM heatmap to approximate the object's location.
+To do so, we applied a threshold to identify the most relevant pixels—
+the full process is detailed here.
+
+To evaluate how well this method can predict the object’s position,
+we assessed the quality of the resulting segmentation using  [Sørensen-Dice coefficient](https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient)
