@@ -11,7 +11,7 @@ from dummy_images_function import create_dummy_images
 
 
 def run_gradcam_with(weights_path):
-   """
+    """
     Apply Grad-CAM to a  model loaded from weights file and
     display the heatmap overlaid on a synthetic test image.
     
