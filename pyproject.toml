@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "function"                 # uguale al pacchetto che importerai
+version = "0.1.0"
+description = "Raccolta di funzioni e modelli"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
