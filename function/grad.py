@@ -21,7 +21,7 @@ def run_gradcam_with(weights_path):
         
     Returns
     - result: raw Grad-CAM map (array with shape [1, H, W] as per `GradCAM` output).
-    '''
+   
     """
   
     #define model and load_weight
