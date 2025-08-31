@@ -3,9 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "function"                 # uguale al pacchetto che importerai
+name = "function"           # deve combaciare con la cartella/pacchetto che importi
 version = "0.1.0"
-description = "Raccolta di funzioni e modelli"
-readme = "README.md"
-requires-python = ">=3.9"
-dependencies = []
+# (facoltativo)
+# dependencies = ["numpy", "torch"]
