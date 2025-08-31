@@ -1,4 +1,4 @@
-from .grad import run_gradcam_with,
+from .grad import run_gradcam_with
 from .segmentation import Dice_Sorensen, segmentation_prova
 from .dm_image.py import create_dummy_images, make_the_object, generate_dataset
 
