@@ -5,7 +5,7 @@ from pytorch_grad_cam.utils.image import show_cam_on_image
 import numpy as np
 import random
 from torchvision import transforms
-from custom_model import CustomResNet
+from custom_model_Resnet import CustomResNet
 from segmentation_tool import Dice_Sorensen
 from dummy_images_function import make_the_object
 from dummy_images_function import create_dummy_images
