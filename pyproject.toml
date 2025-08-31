@@ -4,16 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "function"            # uguale alla cartella del pacchetto
-version = "0.1.3"
+version = "0.1.4"            # bump per prendere la nuova build
 description = "Funzioni e modelli (demo)"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-  # "torch>=2.1",            # scommenta se ti serve
-  "numpy>=1.22"
+  "numpy>=1.22",
+  "torch",                   # puoi anche fissare una versione se vuoi
+  "torchvision",
+  "pytorch-grad-cam>=1.4.8",
+  "matplotlib>=3.6"
 ]
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["function*"]
 exclude = ["tests*", "docs*"]
+
+# (opzionale)
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
