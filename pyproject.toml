@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "function"
-version = "0.1.17"  # bump
+version = "0.1.18"  # bump
 description = "Funzioni e modelli (demo)"
 readme = "README.md"
 requires-python = ">=3.9"
