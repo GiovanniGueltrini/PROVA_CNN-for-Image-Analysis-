@@ -4,7 +4,7 @@ from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 from pytorch_grad_cam.utils.image import show_cam_on_image
 import numpy as np
 from torchvision import transforms
-from custom_model_Resnet import CustomResNet  # Importa il tuo modello personalizzato
+from .custom_model_Resnet import CustomResNet  # Importa il tuo modello personalizzato
 from dummy_images_function import make_the_object
 from dummy_images_function import create_dummy_images
 
